@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """A module to print pascal triangle
 """
-    
-    
+
+
 def pascal_triangle(n):
     """ A function to return the pascal triangle"""
     if n <= 0:
