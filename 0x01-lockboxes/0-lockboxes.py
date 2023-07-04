@@ -4,6 +4,14 @@
 
 
 def canUnlockAll(boxes):
+    """Checks locks for the boxes
+
+    Args:
+        boxes (list): an array of boxes
+
+    Returns:
+        bool: True or False
+    """
     n = len(boxes)
     visited = set()
     stack = [0]
