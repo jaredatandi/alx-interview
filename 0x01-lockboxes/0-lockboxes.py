@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """A module to generate keys for lockboxes
 """
 
