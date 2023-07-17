@@ -31,7 +31,7 @@ if __name__ == "__main__":
     
     try:
         for line in sys.stdin:
-            lin = line.strip()
+            line = line.strip()
             match = regex.fullmatch(line)
             if (match):
                 line_cont += 1
