@@ -1,4 +1,4 @@
-#!/bin/usr/env python3
+#!/usr/bin/python3
 
 """A module to check for a valide utf8
 """
