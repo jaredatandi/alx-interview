@@ -29,7 +29,7 @@ function fetchAndPrintCharacterNames() {
             request(characterUrl, (charError, charResponse, charBody) => {
               if (!charError && charResponse.statusCode === 200) {
                 const character = JSON.parse(charBody);
-                console.log(`- ${character.name}`);
+                console.log(`${character.name}`);
               } else {
                 console.error('Error fetching character details:', charError);
               }
