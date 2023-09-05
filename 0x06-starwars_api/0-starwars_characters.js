@@ -14,7 +14,7 @@ if (!movieId) {
 const apiUrl = `https://swapi.dev/api/films/${movieId}/`;
 
 // Function to fetch and print character names
-function fetchAndPrintCharacterNames() {
+function fetchAndPrintCharacterNames () {
   request(apiUrl, (error, response, body) => {
     if (error) {
       console.error('Error:', error);
@@ -47,4 +47,3 @@ function fetchAndPrintCharacterNames() {
 
 // Call the function to fetch and print character names
 fetchAndPrintCharacterNames();
-
